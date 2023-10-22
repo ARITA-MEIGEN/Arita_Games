@@ -1,7 +1,0 @@
-#ボス戦
-Object
-Enemy
-Pos 0 0 0 
-Time 100
-Ptn 11
-End

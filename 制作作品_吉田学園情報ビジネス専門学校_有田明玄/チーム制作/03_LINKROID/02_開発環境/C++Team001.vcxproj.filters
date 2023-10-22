@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\01_Mode">
+      <UniqueIdentifier>{922605c4-0a66-4b2d-b155-49b48dbe8826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\02_Camera">
+      <UniqueIdentifier>{4c53fbe0-acc4-44b2-a364-e50fe8c0fa0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\03_Input">
+      <UniqueIdentifier>{5aa60ee2-821b-44e0-ae20-7932d08c391b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\00_Main">
+      <UniqueIdentifier>{1c986e72-20e9-46d3-8e28-25e08c930522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\04_Item">
+      <UniqueIdentifier>{111ad2a3-1c18-4a46-a2d0-91b5a7098beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\05_Map">
+      <UniqueIdentifier>{ea0ea196-9053-404c-8e15-d526b7bedec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\07_Object">
+      <UniqueIdentifier>{5607d2da-08c2-404f-9789-90b1810d1cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_Charctor">
+      <UniqueIdentifier>{76607235-aa88-46eb-a1d9-4492c3cd7823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\09_UI">
+      <UniqueIdentifier>{2bb071fe-3a15-46dd-b021-4c39686af592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\20_FILE">
+      <UniqueIdentifier>{12cc9b25-4683-442c-83bb-3d0f5e92020b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\05_Map\block">
+      <UniqueIdentifier>{32350378-d219-4402-a775-bbd85683fb30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\05_Map\block\Decorator">
+      <UniqueIdentifier>{b44baec8-c94e-43e7-807d-3532403a1dbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\effect.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Particle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\File.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mode.cpp">
+      <Filter>ソース ファイル\01_Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Title.cpp">
+      <Filter>ソース ファイル\01_Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>ソース ファイル\01_Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Result.cpp">
+      <Filter>ソース ファイル\01_Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>ソース ファイル\02_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CameraGame.cpp">
+      <Filter>ソース ファイル\02_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SkillSelect.cpp">
+      <Filter>ソース ファイル\01_Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input.cpp">
+      <Filter>ソース ファイル\03_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DebugProc.cpp">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Fade.cpp">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Letter.cpp">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound.cpp">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer.cpp">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility.cpp">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\DirectInput.cpp">
+      <Filter>ソース ファイル\03_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\inputjoypad.cpp">
+      <Filter>ソース ファイル\03_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\inputkeyboard.cpp">
+      <Filter>ソース ファイル\03_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\inputmouse.cpp">
+      <Filter>ソース ファイル\03_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Item.cpp">
+      <Filter>ソース ファイル\04_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Item_Paint.cpp">
+      <Filter>ソース ファイル\04_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Item_Speed.cpp">
+      <Filter>ソース ファイル\04_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\area.cpp">
+      <Filter>ソース ファイル\05_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Floor.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map.cpp">
+      <Filter>ソース ファイル\05_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapSelect.cpp">
+      <Filter>ソース ファイル\01_Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\teleport.cpp">
+      <Filter>ソース ファイル\05_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object.cpp">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object2D.cpp">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object3D.cpp">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ObjectList.cpp">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ObjectX.cpp">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ObjectXOriginalList.cpp">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Item_Bom.cpp">
+      <Filter>ソース ファイル\04_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>ソース ファイル\08_Charctor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayerController.cpp">
+      <Filter>ソース ファイル\08_Charctor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\computerController.cpp">
+      <Filter>ソース ファイル\08_Charctor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Controller.cpp">
+      <Filter>ソース ファイル\08_Charctor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shadow.cpp">
+      <Filter>ソース ファイル\08_Charctor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\area_warning.cpp">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SkillGauge.cpp">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StatusUI.cpp">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Motion.cpp">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI.cpp">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Time.cpp">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\countdown_ui.cpp">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Light.cpp">
+      <Filter>ソース ファイル\02_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CameraResult.cpp">
+      <Filter>ソース ファイル\02_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky_bg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Item_take_effect.cpp">
+      <Filter>ソース ファイル\04_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\start_ui.cpp">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pouse_ui.cpp">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Precompile.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Block.cpp">
+      <Filter>ソース ファイル\05_Map\block</Filter>
+    </ClCompile>
+    <ClCompile Include="src\come_future_block.cpp">
+      <Filter>ソース ファイル\05_Map\block\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\go_future_block.cpp">
+      <Filter>ソース ファイル\05_Map\block\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\future_signs.cpp">
+      <Filter>ソース ファイル\05_Map\block\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bom.cpp">
+      <Filter>ソース ファイル\04_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tutorial.cpp">
+      <Filter>ソース ファイル\01_Mode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Command.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Easing.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\effect.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\File.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Particle.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CameraGame.h">
+      <Filter>ソース ファイル\02_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>ソース ファイル\02_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input.h">
+      <Filter>ソース ファイル\03_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Result.h">
+      <Filter>ソース ファイル\01_Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>ソース ファイル\01_Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Title.h">
+      <Filter>ソース ファイル\01_Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SkillSelect.h">
+      <Filter>ソース ファイル\01_Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Application.h">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DebugProc.h">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Fade.h">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Letter.h">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Texture.h">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound.h">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Precompile.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer.h">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility.h">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\DirectInput.h">
+      <Filter>ソース ファイル\03_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\inputjoypad.h">
+      <Filter>ソース ファイル\03_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\inputkeyboard.h">
+      <Filter>ソース ファイル\03_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\inputkeydata.h">
+      <Filter>ソース ファイル\03_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\inputmouse.h">
+      <Filter>ソース ファイル\03_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Item.h">
+      <Filter>ソース ファイル\04_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Item_Speed.h">
+      <Filter>ソース ファイル\04_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Item_Paint.h">
+      <Filter>ソース ファイル\04_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\area.h">
+      <Filter>ソース ファイル\05_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Floor.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map.h">
+      <Filter>ソース ファイル\05_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>ソース ファイル\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MapSelect.h">
+      <Filter>ソース ファイル\01_Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\teleport.h">
+      <Filter>ソース ファイル\05_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object.h">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object2D.h">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object3D.h">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ObjectList.h">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ObjectX.h">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ObjectXOriginalList.h">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bg.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Item_Bom.h">
+      <Filter>ソース ファイル\04_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>ソース ファイル\08_Charctor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlayerController.h">
+      <Filter>ソース ファイル\08_Charctor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\computerController.h">
+      <Filter>ソース ファイル\08_Charctor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller.h">
+      <Filter>ソース ファイル\08_Charctor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shadow.h">
+      <Filter>ソース ファイル\08_Charctor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\area_warning.h">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StatusUI.h">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SkillGauge.h">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Motion.h">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>ソース ファイル\07_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI.h">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Time.h">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\countdown_ui.h">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Light.h">
+      <Filter>ソース ファイル\02_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CameraResult.h">
+      <Filter>ソース ファイル\02_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky_bg.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Item_take_effect.h">
+      <Filter>ソース ファイル\04_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\start_ui.h">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pouse_ui.h">
+      <Filter>ソース ファイル\09_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Block.h">
+      <Filter>ソース ファイル\05_Map\block</Filter>
+    </ClInclude>
+    <ClInclude Include="src\come_future_block.h">
+      <Filter>ソース ファイル\05_Map\block\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\future_signs.h">
+      <Filter>ソース ファイル\05_Map\block\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\go_future_block.h">
+      <Filter>ソース ファイル\05_Map\block\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bom.h">
+      <Filter>ソース ファイル\04_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mode.h">
+      <Filter>ソース ファイル\01_Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tutorial.h">
+      <Filter>ソース ファイル\01_Mode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\input\KeyConfigData.txt">
+      <Filter>ソース ファイル\03_Input</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\FILE\model.json">
+      <Filter>ソース ファイル\20_FILE</Filter>
+    </None>
+    <None Include="data\FILE\texture.json">
+      <Filter>ソース ファイル\20_FILE</Filter>
+    </None>
+  </ItemGroup>
+</Project>
